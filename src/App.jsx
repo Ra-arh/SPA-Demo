@@ -5,7 +5,7 @@ import { BannerDetails } from './Components/Banner/BannerDetails';
 
 function App() {
   const bannerData = [
-    {text1: "Manage Your Project", text2: "Azea - Now you can use this admin template to design stunning dashboards that will wow your target viewers or users to no end."},
+    {text1: "Manage Your Project", text2: "Admin template to design stunning dashboards that will wow your target viewers or users to no end."},
     {text1: "Azea", text2: "Now you can use this admin template to design"},
     {text1: "Manage Project", text2: "Now you can use this admin template to design stunning dashboards"}
   ]

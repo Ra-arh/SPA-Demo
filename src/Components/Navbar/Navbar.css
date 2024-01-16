@@ -1,28 +1,42 @@
 .nav{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    gap: 370px;
     align-items: center;
-    margin: 40px 120px;
+    text-align: center;
+    margin: 30px 120px;
     color: white;
 }
 
+
 .nav-logo{
     font-family: Outfit;
-    font-size: 42px;
-    font-weight: 500;
 }
+
+.ham-icon>img{
+    height: 30px;
+    width: 30px;
+}
+
 
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
     font-size: 18px;
-    gap: 30px;
+    gap: 25px;
 }
+
+.nav-menu li:hover{
+    /* background-color: rgb(122, 159, 159); */
+    border-radius: 10px;
+    transition:all 0.2s ease-in-out;
+}
+
 
 .nav-logout{
     border-radius: 10px;
-    padding: 5px 38px;
+    padding: 5px 15px;
     background: rgb(7, 7, 68);
     color: #262626;
 }
@@ -37,7 +51,7 @@
 
 .nav-setting{
     border-radius: 10px;
-    padding: 5px 38px;
+    padding: 5px 15px;
     background: rgb(7, 7, 68);
     color: #262626;
 }
@@ -50,3 +64,5 @@
     align-items: center;
     padding: 5px 0px 5px 0px;
 }
+
+

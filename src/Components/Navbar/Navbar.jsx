@@ -2,7 +2,7 @@ import './Navbar.css';
 import logo from '../../Assets/Logo.svg'
 import logout from '../../Assets/logout.png'
 import setting from '../../Assets/cogwheel.png'
-
+import hamburger from '../../Assets/menu.png'
 
 export const Navbar = () => {
   return (
@@ -11,6 +11,9 @@ export const Navbar = () => {
       <div className='nav-logo'>
         <img src={logo} alt="logo" />
       </div>
+      {/* <div className='ham-icon'>
+        <img src={hamburger} alt="hamIcon" />
+      </div> */}
       <ul className='nav-menu'>
         <li>Home</li>
         <li>Abouts</li>
